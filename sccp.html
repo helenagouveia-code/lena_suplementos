@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lena Story - Suplementos</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1598970434795-0c54fe7c0642');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .produtos {
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .produto {
+            background-color: #111;
+            border: 1px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .produto:hover {
+            transform: scale(1.03);
+        }
+
+        .produto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .produto-info {
+            padding: 15px;
+        }
+
+        .produto-info h3 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .produto-info p {
+            font-size: 0.95em;
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            border-top: 1px solid #333;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lena Story</h1>
+        <p>Suplementos para quem busca performance</p>
+    </header>
+
+    <section class="hero">
+        <h2>Força, foco e resultados</h2>
+    </section>
+
+    <section class="produtos">
+        <div class="produto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS33My-pYI-dzdFo5wd-EsZgOQCPHn1rzpSCQ&s" alt="Whey Protein">
+            <div class="produto-info">
+                <h3>Whey Protein</h3>
+                <p>Alta qualidade, ideal para recuperação muscular e crescimento.</p>
+    > <a href="yuri.html"><button onclick="login()">PRODUTOS</button></a>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d" alt="Creatina">
+            <div class="produto-info">
+                <h3>Creatina</h3>
+                <p>Ganhos reais de força e resistência em treinos intensos.</p>
+                 > <a href="creatina.html"><button onclick="login()">PRODUTOS</button></a>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" alt="Pré-Treino">
+            <div class="produto-info">
+                <h3>Pré-Treino</h3>
+                <p>Mais energia, mais foco, mais performance para seus treinos.</p>
+                 > <a href="prétreino.html"><button onclick="login()">PRODUTOS</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lena Story. Todos os direitos reservados. | <a href="#">instagram @helena.xjr</a></p>
+    </footer>
+
+</body>
+</html>
